@@ -35,7 +35,7 @@ public class MainActivity extends Activity
             listitems.add(item);
         }
 
-        //创建一个simpleadapter
+        //创建一个simpleadapter 黑尾巴蒂
         SimpleAdapter simpleAdapter = new SimpleAdapter(this,listitems,R.layout.simple_item,
                 new String[]{"name","header","desc"},
                 new int[]{R.id.name,R.id.header,R.id.desc});
